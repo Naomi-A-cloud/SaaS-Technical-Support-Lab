@@ -1,0 +1,7 @@
+2026-09-10 08:41:22 INFO authentication-service Login request received user=alex.morgan
+2026-09-10 08:41:22 INFO authentication-service Session validation started
+2026-09-10 08:41:22 WARN authentication-service Invalid session token user=alex.morgan
+2026-09-10 08:41:23 INFO authentication-service Login request rejected reason=invalid_session
+2026-09-10 08:47:11 INFO authentication-service Login request received user=alex.morgan
+2026-09-10 08:47:11 INFO authentication-service Session validation successful
+2026-09-10 08:47:12 INFO authentication-service Authentication successful user=alex.morgan

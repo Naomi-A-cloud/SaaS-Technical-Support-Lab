@@ -1,0 +1,5 @@
+2026-09-10 09:02:14 INFO application Request received endpoint=/dashboard
+2026-09-10 09:02:14 INFO application User authenticated user=alex.morgan
+2026-09-10 09:02:14 INFO application Dashboard loaded status=200
+2026-09-10 09:05:31 WARN application Response latency endpoint=/reports duration=3120ms
+2026-09-10 09:06:02 INFO application Request completed endpoint=/reports status=200

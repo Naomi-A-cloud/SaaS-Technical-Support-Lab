@@ -1,0 +1,5 @@
+2026-09-10 09:14:02 INFO API GET /api/v1/users status=200 response_time=184ms
+2026-09-10 09:14:09 INFO API GET /api/v1/projects status=200 response_time=201ms
+2026-09-10 09:15:42 WARN API GET /api/v1/reports status=429 response_time=92ms
+2026-09-10 09:15:43 WARN API Rate limit exceeded client=report-service
+2026-09-10 09:16:03 INFO API GET /api/v1/reports status=200 response_time=176ms
