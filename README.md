@@ -56,3 +56,30 @@ Environment: Simulated production support environment
 ## Disclaimer
 
 CloudDesk is a fictional SaaS platform created for portfolio and learning purposes. The tickets, incidents, logs and customer scenarios are simulated.
+
+## Troubleshooting Workflow
+
+The project follows a structured technical support methodology:
+
+```text
+Customer Issue
+      ↓
+Ticket Creation
+      ↓
+Issue Classification
+      ↓
+Reproduction
+      ↓
+Technical Investigation
+      ↓
+Logs / API / Browser Analysis
+      ↓
+Root Cause Identification
+      ↓
+Resolution or Escalation
+      ↓
+Customer Communication
+      ↓
+Documentation
+      ↓
+Ticket Closure
