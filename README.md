@@ -83,3 +83,47 @@ Customer Communication
 Documentation
       ↓
 Ticket Closure
+
+## Portfolio Highlights
+
+### Technical Support
+
+- [Technical Support Runbook](docs/technical-support-runbook.md)
+- [Support Decision Tree](docs/troubleshooting-guides/support-decision-tree.md)
+- [API Troubleshooting](docs/troubleshooting-guides/api-troubleshooting.md)
+- [Escalation Matrix](docs/escalation/escalation-matrix.md)
+
+### Case Study
+
+- [Flagship Technical Support Case Study](docs/flagship-case-study.md)
+- [Case Study Evidence](evidence/case-study-evidence.md)
+
+### Incident Management
+
+- [Incident Response Process](incidents/incident-response-process.md)
+- [Root Cause Analysis Template](incidents/root-cause-analysis-template.md)
+
+### Support Operations
+
+- [Ticket Lifecycle](support-process/ticket-lifecycle.md)
+- [Prioritisation](support-process/prioritisation.md)
+- [SLA Management](support-process/sla-management.md)
+- [Support Metrics](support-process/support-metrics.md)
+
+### Architecture
+
+- [CloudDesk SaaS Architecture](docs/architecture.md)
+
+### Security
+
+- [Security Practices](SECURITY.md)
+
+## CI Validation
+
+This repository includes GitHub Actions validation to verify the project structure and required documentation whenever changes are pushed.
+
+## Disclaimer
+
+CloudDesk SaaS is a fictional SaaS environment created for portfolio and learning purposes.
+
+All tickets, customers, logs, incidents and technical scenarios are simulated.

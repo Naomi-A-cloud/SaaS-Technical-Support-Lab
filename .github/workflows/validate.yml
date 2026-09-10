@@ -1,0 +1,41 @@
+name: Validate Support Lab
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify required directories
+        run: |
+          test -d docs
+          test -d tickets
+          test -d knowledge-base
+          test -d support-process
+          test -d incidents
+          test -d logs
+          test -d evidence
+
+      - name: Verify required files
+        run: |
+          test -f README.md
+          test -f PROJECT-SUMMARY.md
+          test -f .gitignore
+
+      - name: Validate Markdown files
+        run: |
+          find . -name "*.md" -print > markdown-files.txt
+          test -s markdown-files.txt
+
+      - name: Validation successful
+        run: echo "SaaS Technical Support Lab validation completed successfully."
