@@ -5,3 +5,11 @@
 2026-09-10 08:47:11 INFO authentication-service Login request received user=alex.morgan
 2026-09-10 08:47:11 INFO authentication-service Session validation successful
 2026-09-10 08:47:12 INFO authentication-service Authentication successful user=alex.morgan
+
+2026-09-10 10:12:04 INFO authentication-service Login request received user=jordan.lee
+2026-09-10 10:12:04 INFO authentication-service Password reset request created user=jordan.lee
+2026-09-10 10:12:05 INFO notification-service Password reset email queued user=jordan.lee
+2026-09-10 10:14:31 INFO authentication-service MFA challenge initiated user=taylor.smith
+2026-09-10 10:14:32 WARN authentication-service MFA code rejected reason=time_drift user=taylor.smith
+2026-09-10 10:15:02 INFO authentication-service Device time synchronization detected user=taylor.smith
+2026-09-10 10:15:04 INFO authentication-service MFA authentication successful user=taylor.smith

@@ -3,3 +3,10 @@
 2026-09-10 09:15:42 WARN API GET /api/v1/reports status=429 response_time=92ms
 2026-09-10 09:15:43 WARN API Rate limit exceeded client=report-service
 2026-09-10 09:16:03 INFO API GET /api/v1/reports status=200 response_time=176ms
+
+2026-09-10 10:30:01 INFO API GET /api/v1/projects status=200 response_time=194ms
+2026-09-10 10:30:03 INFO API GET /api/v1/reports status=200 response_time=211ms
+2026-09-10 10:30:05 WARN API GET /api/v1/reports status=429 response_time=88ms
+2026-09-10 10:30:05 WARN API Rate limit exceeded client=report-service
+2026-09-10 10:30:15 WARN API GET /api/v1/reports status=429 response_time=91ms
+2026-09-10 10:30:30 INFO API GET /api/v1/reports status=200 response_time=187ms
